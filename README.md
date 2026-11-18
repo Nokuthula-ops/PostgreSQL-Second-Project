@@ -10,18 +10,18 @@ The task is to use DBeaver to see and manage my AWS PosgreSQL database, Perfom C
  -Then on DBeaver, I connected my database which is 'PostgreSQL database', and was able to view the information I have stored previously from my first project.
 
 ### AWS RDS PostgreSQL
-![EC2 AWS RDS PostgreSQL](<Screenshot (22).png>)
+![AWS RDS PostgreSQL](<Screenshot (22).png>)
 
  -I then performed a CRUD operation by adding 2 customers, updated the information, and deleteting one of them.
  While doing CRUD, i've been checking after every step. The screenshot attached is the results of of the DELETE operation.
 
 ### Customer Records in DBeaver
-![EC2 Customer Records](<Screenshot (25).png>)
+![Customer Records](<Screenshot (25).png>)
  
  -Lastly, testing persistance. I disconnected DBeaver from the database and reconnected again, checked whether customer information is there and they were still there. I also closed DBeaver entirely and restarted the laptop. I started DBeaver again, connected it to the database, and checked for customer, and GOOD NEWS! persistances passed!.
  
  ### Persistence Test
-![EC2 Persistance Test](<Screenshot (27).png>)
+![Persistance Test](<Screenshot (27).png>)
 
 
 
